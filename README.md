@@ -1,14 +1,10 @@
 Install guide:
-(Linux required right now)
 
-git clone https://github.com/BenChanlLOL/vulnscan.git
+disregard install.sh
+(mac)
 
-cd vulnscan
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
-sudo su
+brew install git
 
-chmod +x install.sh
-
-chmod +x vulnscan.sh
-
-./install.sh
+brew install nmap
