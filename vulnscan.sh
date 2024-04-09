@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 echo "developed by tztedtrzh"
 	sleep 1
