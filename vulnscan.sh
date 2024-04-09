@@ -28,7 +28,7 @@ read ans
 if [[ $ans == "1" ]]; then
 	sudo nmap -sV --script vuln $IP
 else
-	sudo nmap -D google.com -sn $IP 
+	sudo nmap -D google.com -sn $IP/24 
 
 fi
 
